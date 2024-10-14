@@ -31,5 +31,6 @@ Test coverage is available for both the search engine and the main CLI app. To r
 2. Use `rspec` to run the tests
 
 ## Notes
-1. This version of the app assumes that the `clients.json` dataset is available in the `data` directory.
-2. This app assumes that the dataset will remain within a reasonable size. Given the scope of the project, substring search was used to reduce complexity. Further optimizations might be necessary if ever the data grows to be too much for the app to handle.
+1. This app assumes that the ruby file `./simple-search` has the correct executable permissions.
+2. This version of the app assumes that the `clients.json` dataset is available in the `data` directory.
+3. This app assumes that the dataset will remain within a reasonable size. Given the scope of the project, substring search was used to reduce complexity. Further optimizations might be necessary if ever the data grows to be too much for the app to handle.
